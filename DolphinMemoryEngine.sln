@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DolphinMemoryEngine", "DolphinMemoryEngine\DolphinMemoryEngine.csproj", "{B45DA9F5-EC69-4668-A4F9-974F1DB45DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{A3771ECF-C6B6-4C7E-A3A7-06BEF24D7B5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B45DA9F5-EC69-4668-A4F9-974F1DB45DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45DA9F5-EC69-4668-A4F9-974F1DB45DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45DA9F5-EC69-4668-A4F9-974F1DB45DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45DA9F5-EC69-4668-A4F9-974F1DB45DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3771ECF-C6B6-4C7E-A3A7-06BEF24D7B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3771ECF-C6B6-4C7E-A3A7-06BEF24D7B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3771ECF-C6B6-4C7E-A3A7-06BEF24D7B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3771ECF-C6B6-4C7E-A3A7-06BEF24D7B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FA73D1C-095A-4C78-A45B-465D1D3203AE}
+	EndGlobalSection
+EndGlobal
