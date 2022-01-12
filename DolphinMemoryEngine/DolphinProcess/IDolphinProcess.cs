@@ -4,12 +4,12 @@ using System.Text;
 
 namespace DolphinMemoryEngine.DolphinProcess
 {
-    internal interface IDolhinProcess
+    internal interface IDolphinProcess
     {
         bool findPID();
         bool obtainEmuRAMInformations();
-        //bool readFromRAM(UInt32 offset, char* buffer, size_t size, bool withBSwap);
-        //bool writeToRAM(UInt32 offset, char* buffer, size_t size, bool withBSwap);
+        bool readFromRAM(ulong offset, byte[] buffer, int size, bool withBSwap);
+        bool writeToRAM(ulong offset, byte[] buffer, int size, bool withBSwap);
 
         int getPID();
         UInt64 getEmuRAMAddressStart();

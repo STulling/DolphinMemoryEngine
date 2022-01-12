@@ -5,48 +5,65 @@ using System.Text;
 
 namespace DolphinMemoryEngine.Common
 {
-    [StructLayout(LayoutKind.Sequential)]
-    public struct PROCESSENTRY32
+	[StructLayout(LayoutKind.Sequential)]
+	public struct PROCESSENTRY32
 	{
-        public uint dwSize;
-        public uint cntUsage;
-        public int th32ProcessID; // Hope = Cope
-        public IntPtr th32DefaultHeapID;
-        public uint th32ModuleID;
-        public uint cntThreads;
-        public uint th32ParentProcessID;
-        public int pcPriClassBase;
-        public uint dwFlags;
-        [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 256)]
-        public string szExeFile;
-    };
+		public uint dwSize;
+		public uint cntUsage;
+		public uint th32ProcessID;
+		public IntPtr th32DefaultHeapID;
+		public uint th32ModuleID;
+		public uint cntThreads;
+		public uint th32ParentProcessID;
+		public int pcPriClassBase;
+		public uint dwFlags;
+		[MarshalAs(UnmanagedType.ByValTStr, SizeConst = 260)] public string szExeFile;
+	};
 
 	[StructLayout(LayoutKind.Sequential, Pack = 1)]
 	struct SYSTEM_INFO
 	{
-		public Int32 dwOemId;
-		public Int32 dwPageSize;
-		public UInt32 lpMinimumApplicationAddress;
-		public UInt32 lpMaximumApplicationAddress;
-		public IntPtr dwActiveProcessorMask;
-		public Int32 dwNumberOfProcessors;
-		public Int32 dwProcessorType;
-		public Int32 dwAllocationGranularity;
-		public Int16 wProcessorLevel;
-		public Int16 wProcessorRevision;
+		public ushort processorArchitecture;
+		ushort reserved;
+		public uint pageSize;
+		public IntPtr minimumApplicationAddress;
+		public IntPtr maximumApplicationAddress;
+		public IntPtr activeProcessorMask;
+		public uint numberOfProcessors;
+		public uint processorType;
+		public uint allocationGranularity;
+		public ushort processorLevel;
+		public ushort processorRevision;
 	}
 
-	[StructLayout(LayoutKind.Sequential, Pack = 1)]
-	struct MEMORY_BASIC_INFORMATION
+	[StructLayout(LayoutKind.Sequential)]
+	public struct MEMORY_BASIC_INFORMATION
 	{
 		public IntPtr BaseAddress;
 		public IntPtr AllocationBase;
-		public Int32 AllocationProtect;
-		public UInt32 RegionSize;
-		public Int32 State;
-		public Int32 Protect;
-		public Int32 Type;
+		public int AllocationProtect;
+		public short __alignment1;
+		public long RegionSize;
+		public int State;
+		public int Protect;
+		public int Type;
+		//public int __alignment2;
 	}
+
+	[StructLayout(LayoutKind.Sequential)]
+	public struct MEMORY_BASIC_INFORMATION64
+	{
+		public ulong BaseAddress;
+		public ulong AllocationBase;
+		public int AllocationProtect;
+		public int __alignment1;
+		public ulong RegionSize;
+		public int State;
+		public int Protect;
+		public int Type;
+		public int __alignment2;
+	}
+
 
 	[Flags]
 	public enum TypeEnum : uint

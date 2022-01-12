@@ -6,27 +6,34 @@ using System.Text;
 
 namespace DolphinMemoryEngine.DolphinProcess
 {
-    public class WindowsDolphinProcess// : IDolhinProcess
+    public class WindowsDolphinProcess : IDolphinProcess
     {
+        #region Imports
         // Function Imports
-        [DllImport("KERNEL32.dll")] //[DllImport("toolhelp.dll")]
-        public static extern int CreateToolhelp32Snapshot(uint flags, uint processid);
-        [DllImport("KERNEL32.DLL")] //[DllImport("toolhelp.dll")] 
-        public static extern int CloseHandle(int handle);
-        [DllImport("KERNEL32.DLL")] //[DllImport("toolhelp.dll")
-        public static extern int Process32Next(int handle, ref PROCESSENTRY32 pe);
-        [DllImport("KERNEL32.DLL")] //[DllImport("toolhelp.dll")
-        public static extern int Process32First(int handle, ref PROCESSENTRY32 pe);
         [DllImport("KERNEL32.dll")]
+        public static extern int CreateToolhelp32Snapshot(uint flags, uint processid);
+        [DllImport("KERNEL32.DLL")]
+        public static extern int CloseHandle(int handle);
+        [DllImport("KERNEL32.DLL")]
+        public static extern int Process32Next(int handle, ref PROCESSENTRY32 pe);
+        [DllImport("KERNEL32.DLL", SetLastError = true)]
+        public static extern int Process32First(int handle, ref PROCESSENTRY32 pe);
+        [DllImport("KERNEL32.dll", SetLastError = true)]
         private static extern IntPtr OpenProcess(ProcessAccessFlags processAccess, bool bInheritHandle, int dwProcessId);
+        [DllImport("kernel32.dll")]
+        public static extern bool ReadProcessMemory(IntPtr hProcess, IntPtr lpBaseAddress, [Out] byte[] lpBuffer, int dwSize, out IntPtr lpNumberOfBytesRead);
+        [DllImport("kernel32.dll", SetLastError = true)]
+        public static extern bool WriteProcessMemory(IntPtr hProcess, IntPtr lpBaseAddress, byte[] lpBuffer, int nSize, out IntPtr lpNumberOfBytesWritten);
         [DllImport("KERNEL32.dll")]
         private static extern bool CloseHandle(IntPtr hObject);
-        [DllImport("Kernel32.dll")]
-        static extern Int32 VirtualQueryEx(IntPtr hProcess, UIntPtr lpAddress, ref MEMORY_BASIC_INFORMATION buffer, UInt32 dwLength);
-
+        [DllImport("kernel32.dll")]
+        static extern void GetSystemInfo(out SYSTEM_INFO lpSystemInfo);
+        [DllImport("kernel32.dll", SetLastError = true)]
+        static extern int VirtualQueryEx(IntPtr hProcess, IntPtr lpAddress, out MEMORY_BASIC_INFORMATION64 lpBuffer, uint dwLength);
         [DllImport("psapi", SetLastError = true)]
         [return: MarshalAs(UnmanagedType.Bool)]
         public static extern bool QueryWorkingSetEx(IntPtr hProcess, [In, Out] PSAPI_WORKING_SET_EX_INFORMATION[] pv, int cb);
+        #endregion Imports
 
         [Flags]
         public enum ProcessAccessFlags : uint
@@ -84,7 +91,8 @@ namespace DolphinMemoryEngine.DolphinProcess
             int snapshot = CreateToolhelp32Snapshot(0x00000002, 0);
 
             PROCESSENTRY32 pe32 = new PROCESSENTRY32();
-            if (Process32First(snapshot, ref pe32) != 0)
+            pe32.dwSize = (uint)Marshal.SizeOf(typeof(PROCESSENTRY32));
+            if (Process32First(snapshot, ref pe32) == 1)
             {
                 do
                 {
@@ -92,10 +100,10 @@ namespace DolphinMemoryEngine.DolphinProcess
                         pe32.szExeFile == "DolphinQt2.exe" ||
                         pe32.szExeFile == "DolphinWx.exe")
                     {
-                        m_PID = pe32.th32ProcessID;
+                        m_PID = (int)pe32.th32ProcessID;
                         break;
                     }
-                } while (Process32Next(snapshot, ref pe32) != 0);
+                } while (Process32Next(snapshot, ref pe32) == 1);
             }
 
             CloseHandle(snapshot);
@@ -115,18 +123,25 @@ namespace DolphinMemoryEngine.DolphinProcess
 
         public bool obtainEmuRAMInformations()
         {
-            MEMORY_BASIC_INFORMATION info = new MEMORY_BASIC_INFORMATION();
-            uint info_size = (uint)Marshal.SizeOf(typeof(MEMORY_BASIC_INFORMATION));
+            MEMORY_BASIC_INFORMATION64 info = new MEMORY_BASIC_INFORMATION64();
+            uint info_size = (uint)Marshal.SizeOf(info);
+
+            SYSTEM_INFO sys_info = new SYSTEM_INFO();
+            GetSystemInfo(out sys_info);
+
+            IntPtr proc_min_address = sys_info.minimumApplicationAddress;
+            IntPtr proc_max_address = sys_info.maximumApplicationAddress;
+
             bool MEM1Found = false;
-            for (UIntPtr p = UIntPtr.Zero;
-                VirtualQueryEx(m_hDolphin, p, ref info, info_size) == info_size; UIntPtr.Add(p, (int)info.RegionSize))
+            for (ulong p = 0;
+                VirtualQueryEx(m_hDolphin, (IntPtr)p, out info, info_size) == info_size; p += info.RegionSize)
             {
                 // Check region size so that we know it's MEM2
                 if (info.RegionSize == 0x4000000)
                 {
                     UInt64 regionBaseAddress = 0;
                     //std::memcpy(&regionBaseAddress, &(info.BaseAddress), sizeof(IntPtr));
-                    regionBaseAddress = (uint)info.BaseAddress.ToInt64();
+                    regionBaseAddress = (uint)info.BaseAddress;
                     if (MEM1Found && regionBaseAddress > m_emuRAMAddressStart + 0x10000000)
                     {
                         // In some cases MEM2 could actually be before MEM1. Once we find MEM1, ignore regions of
@@ -136,7 +151,7 @@ namespace DolphinMemoryEngine.DolphinProcess
                     }
                     // View the comment for MEM1.
                     PSAPI_WORKING_SET_EX_INFORMATION[] wsInfo = new PSAPI_WORKING_SET_EX_INFORMATION[1];
-                    wsInfo[0].VirtualAddress = info.BaseAddress;
+                    wsInfo[0].VirtualAddress = (IntPtr)info.BaseAddress;
                     if (QueryWorkingSetEx(m_hDolphin, wsInfo, Marshal.SizeOf(typeof(PSAPI_WORKING_SET_EX_INFORMATION))))
                     {
                         if (wsInfo[0].VirtualAttributes.Invalid == 0)
@@ -154,12 +169,12 @@ namespace DolphinMemoryEngine.DolphinProcess
                     // working set information so an additional check is required that it is backed by physical
                     // memory.
                     PSAPI_WORKING_SET_EX_INFORMATION[] wsInfo = new PSAPI_WORKING_SET_EX_INFORMATION[1];
-                    wsInfo[0].VirtualAddress = info.BaseAddress;
+                    wsInfo[0].VirtualAddress = (IntPtr)info.BaseAddress;
                     if (QueryWorkingSetEx(m_hDolphin, wsInfo, Marshal.SizeOf(typeof(PSAPI_WORKING_SET_EX_INFORMATION))))
                     {
                         if (wsInfo[0].VirtualAttributes.Invalid == 0)
                         {
-                            m_emuRAMAddressStart = (UInt64)info.BaseAddress.ToInt64();
+                            m_emuRAMAddressStart = info.BaseAddress;
                             //std::memcpy(&m_emuRAMAddressStart, &(info.BaseAddress), sizeof(info.BaseAddress));
                             MEM1Found = true;
                         }
@@ -175,93 +190,36 @@ namespace DolphinMemoryEngine.DolphinProcess
             }
             return true;
         }
-        /*
-        bool readFromRAM(const u32 offset, char* buffer, const size_t size,
-                                        const bool withBSwap)
-{
-  u64 RAMAddress = m_emuRAMAddressStart + offset;
-        SIZE_T nread = 0;
-        bool bResult = ReadProcessMemory(m_hDolphin, (void*)RAMAddress, buffer, size, &nread);
-  if (bResult && nread == size)
-  {
-    if (withBSwap)
-    {
-      switch (size)
-      {
-      case 2:
-      {
-        u16 halfword = 0;
-        std::memcpy(&halfword, buffer, sizeof(u16));
-        halfword = Common::bSwap16(halfword);
-        std::memcpy(buffer, &halfword, sizeof(u16));
-        break;
-      }
-      case 4:
-      {
-        u32 word = 0;
-    std::memcpy(&word, buffer, sizeof(u32));
-        word = Common::bSwap32(word);
-        std::memcpy(buffer, &word, sizeof(u32));
-        break;
-      }
-      case 8:
-      {
-    u64 doubleword = 0;
-    std::memcpy(&doubleword, buffer, sizeof(u64));
-    doubleword = Common::bSwap64(doubleword);
-    std::memcpy(buffer, &doubleword, sizeof(u64));
-    break;
-}
-      }
-    }
-    return true;
-  }
-  return false;
-}
 
-bool writeToRAM(const u32 offset, const char* buffer, const size_t size,
-                                       const bool withBSwap)
-{
-    u64 RAMAddress = m_emuRAMAddressStart + offset;
-    SIZE_T nread = 0;
-    char* bufferCopy = new char[size];
-    std::memcpy(bufferCopy, buffer, size);
-    if (withBSwap)
-    {
-        switch (size)
+        public bool readFromRAM(ulong offset, byte[] buffer, int size, bool withBSwap)
         {
-            case 2:
+            ulong RAMAddress = m_emuRAMAddressStart + offset;
+            IntPtr nread;
+            bool bResult = ReadProcessMemory(m_hDolphin, (IntPtr)RAMAddress, buffer, size, out nread);
+            if (bResult && nread.ToInt64() == size)
+            {
+                if (withBSwap)
                 {
-                    u16 halfword = 0;
-                    std::memcpy(&halfword, bufferCopy, sizeof(u16));
-                    halfword = Common::bSwap16(halfword);
-                    std::memcpy(bufferCopy, &halfword, sizeof(u16));
-                    break;
+                    Array.Reverse(buffer);
                 }
-            case 4:
-                {
-                    u32 word = 0;
-                    std::memcpy(&word, bufferCopy, sizeof(u32));
-                    word = Common::bSwap32(word);
-                    std::memcpy(bufferCopy, &word, sizeof(u32));
-                    break;
-                }
-            case 8:
-                {
-                    u64 doubleword = 0;
-                    std::memcpy(&doubleword, bufferCopy, sizeof(u64));
-                    doubleword = Common::bSwap64(doubleword);
-                    std::memcpy(bufferCopy, &doubleword, sizeof(u64));
-                    break;
-                }
+                return true;
+            }
+            return false;
         }
-    }
 
-    bool bResult = WriteProcessMemory(m_hDolphin, (void*)RAMAddress, bufferCopy, size, &nread);
-    delete[] bufferCopy;
-    return (bResult && nread == size);
-}
-    }
-        */
+        public bool writeToRAM(ulong offset, byte[] buffer, int size, bool withBSwap)
+        {
+            ulong RAMAddress = m_emuRAMAddressStart + offset;
+            IntPtr nread;
+            byte[] bufferCopy = new byte[size];
+            buffer.CopyTo(bufferCopy, 0);
+            if (withBSwap)
+            {
+                Array.Reverse(bufferCopy);
+            }
+
+            bool bResult = WriteProcessMemory(m_hDolphin, (IntPtr)RAMAddress, bufferCopy, size, out nread);
+            return (bResult && nread.ToInt64() == size);
+        }
     }
 }

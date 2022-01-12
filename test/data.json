@@ -1,0 +1,5580 @@
+[
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Damage/P1 Damage",
+    "pointerOffsets": [ "34", "C3C", "38", "40", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Damage/P2 Damage",
+    "pointerOffsets": [ "278", "C3C", "38", "40", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Damage/P3 Damage",
+    "pointerOffsets": [ "4BC", "C3C", "38", "40", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Damage/P4 Damage",
+    "pointerOffsets": [ "700", "C3C", "38", "40", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Damage/Nana/P1 Damage",
+    "pointerOffsets": [ "3C", "C3C", "38", "40", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Damage/Nana/P2 Damage",
+    "pointerOffsets": [ "280", "C3C", "38", "40", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Damage/Nana/P3 Damage",
+    "pointerOffsets": [ "4C4", "C3C", "38", "40", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Damage/Nana/P4 Damage",
+    "pointerOffsets": [ "708", "C3C", "38", "40", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8062131C",
+    "baseIndex": 0,
+    "label": "/Char ID/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806214E0",
+    "baseIndex": 0,
+    "label": "/Char ID/P2",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "806216A4",
+    "baseIndex": 0,
+    "label": "/Char ID/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80621868",
+    "baseIndex": 0,
+    "label": "/Char ID/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE13C",
+    "baseIndex": 0,
+    "label": "/Ledge Regrabs/P1",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AE9AC",
+    "baseIndex": 0,
+    "label": "/Ledge Regrabs/P2",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AF21C",
+    "baseIndex": 0,
+    "label": "/Ledge Regrabs/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA8C",
+    "baseIndex": 0,
+    "label": "/Ledge Regrabs/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Total Jumps/P1",
+    "pointerOffsets": [ "60", "D0", "3B0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Total Jumps/P2",
+    "pointerOffsets": [ "60", "D0", "3B0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Total Jumps/P3",
+    "pointerOffsets": [ "60", "D0", "3B0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Total Jumps/P4",
+    "pointerOffsets": [ "60", "D0", "3B0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE004",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P1/Jumps Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE0F8",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P1/Tethers Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE00C",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P1/Walljumps Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE014",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P1/Footstools Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE2BC",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/P1/Boolean Reset On Hit or Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AE2C4",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/P1/Boolean Reset On Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AE874",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P2/Jumps Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE968",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P2/Tethers Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE87C",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P2/Walljumps Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE884",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P2/Footstools Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AEB2C",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/P2/Boolean Reset On Hit or Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AEB34",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/P2/Boolean Reset On Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AF0E4",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P3/Jumps Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1D8",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P3/Tethers Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF0EC",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P3/Walljumps Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF0F4",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P3/Footstools Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF39C",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/P3/Boolean Reset On Hit or Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AF3A4",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/P3/Boolean Reset On Landing",
+    "typeIndex": 1,
+    "unsigned": true
+  },
+  {
+    "address": "901AF954",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P4/Jumps Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA48",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P4/Tethers Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF954",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P4/Walljumps Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF964",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/P4/Footstools Used",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFC0C",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/P4/Boolean Reset On Hit or Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AFC14",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/P4/Boolean Reset On Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AE2D7",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/Nana/P1/Jumps Used",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE58C",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/Nana/P1/Boolean Reset On Hit or Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AE594",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/Nana/P1/Boolean Reset On Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AEB47",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/Nana/P2/Jumps Used",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AEDFC",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/Nana/P2/Boolean Reset On Hit or Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AEE04",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/Nana/P2/Boolean Reset On Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AF3B7",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/Nana/P3/Jumps Used",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AF66C",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/Nana/P3/Boolean Reset On Hit or Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AF674",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/Nana/P3/Boolean Reset On Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AFC27",
+    "baseIndex": 0,
+    "label": "/Aerial Resources/Nana/P4/Jumps Used",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AFEDC",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/Nana/P4/Boolean Reset On Hit or Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "901AFEE4",
+    "baseIndex": 3,
+    "label": "/Aerial Resources/Nana/P4/Boolean Reset On Landing",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80623318",
+    "baseIndex": 0,
+    "label": "/Current StockCount/P1",
+    "pointerOffsets": [ "44" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "8062355C",
+    "baseIndex": 0,
+    "label": "/Current StockCount/P2",
+    "pointerOffsets": [ "44" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237A0",
+    "baseIndex": 0,
+    "label": "/Current StockCount/P3",
+    "pointerOffsets": [ "44" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239E4",
+    "baseIndex": 0,
+    "label": "/Current StockCount/P4",
+    "pointerOffsets": [ "44" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE19C",
+    "baseIndex": 0,
+    "label": "/Shield Size/P1",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AEA0C",
+    "baseIndex": 0,
+    "label": "/Shield Size/P2",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AF27C",
+    "baseIndex": 0,
+    "label": "/Shield Size/P3",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AFAEC",
+    "baseIndex": 0,
+    "label": "/Shield Size/P4",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE46C",
+    "baseIndex": 0,
+    "label": "/Shield Size/Nana/P1",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AECDC",
+    "baseIndex": 0,
+    "label": "/Shield Size/Nana/P2",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AF54C",
+    "baseIndex": 0,
+    "label": "/Shield Size/Nana/P3",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AFDBC",
+    "baseIndex": 0,
+    "label": "/Shield Size/Nana/P4",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE1E0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Bowser/Fire Length (Max 345 - Min 75)/P1",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AEA50",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Bowser/Fire Length (Max 345 - Min 75)/P2",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AF2C0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Bowser/Fire Length (Max 345 - Min 75)/P3",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AFB30",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Bowser/Fire Length (Max 345 - Min 75)/P4",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AE1DC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Bowser/Fire Size (Max 240 - Min 60)/P1",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AEA4C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Bowser/Fire Size (Max 240 - Min 60)/P2",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AF2BC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Bowser/Fire Size (Max 240 - Min 60)/P3",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AFB2C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Bowser/Fire Size (Max 240 - Min 60)/P4",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE1EC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Charizard/Fire Length (Max 360 - Min 70)/P1",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AEA5C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Charizard/Fire Length (Max 360 - Min 70)/P2",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AF2CC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Charizard/Fire Length (Max 360 - Min 70)/P3",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AFB3C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Charizard/Fire Length (Max 360 - Min 70)/P4",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AE1E8",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Charizard/Fire Size (Max 380 - Min 80)/P1",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AEA58",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Charizard/Fire Size (Max 380 - Min 80)/P2",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AF2C8",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Charizard/Fire Size (Max 380 - Min 80)/P3",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AFB38",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Charizard/Fire Size (Max 380 - Min 80)/P4",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE100",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Donkey Kong/Punch (10 is full)/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE970",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Donkey Kong/Punch (10 is full)/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Donkey Kong/Punch (10 is full)/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA50",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Donkey Kong/Punch (10 is full)/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE1FC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Ivysaur/SolarBeam/P1",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AEA6C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Ivysaur/SolarBeam/P2",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AF2DC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Ivysaur/SolarBeam/P3",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AFB4C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Ivysaur/SolarBeam/P4",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AE123",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Kirby/Char Copied/P1",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE993",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Kirby/Char Copied/P2",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AF203",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Kirby/Char Copied/P3",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA73",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Kirby/Char Copied/P4",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE104",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucario/Charge (4 is full)/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE974",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucario/Charge (4 is full)/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucario/Charge (4 is full)/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA54",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucario/Charge (4 is full)/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE1FC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucario/Aura/P1",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AEA6C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucario/Aura/P2",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AF2DC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucario/Aura/P3",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AFB4C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucario/Aura/P4",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AE284",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucas/Charge (min 0 - max 119)/P1",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AEAF4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucas/Charge (min 0 - max 119)/P2",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AF364",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucas/Charge (min 0 - max 119)/P3",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AFBD4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Lucas/Charge (min 0 - max 119)/P4",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE16F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Luigi/Next Misfire (at 7)/P1",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE9DF",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Luigi/Next Misfire (at 7)/P2",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AF24F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Luigi/Next Misfire (at 7)/P3",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AFABF",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Luigi/Next Misfire (at 7)/P4",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE173",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Luigi/Next Misfire Damage Unstaled/P1",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE9E3",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Luigi/Next Misfire Damage Unstaled/P2",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AF253",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Luigi/Next Misfire Damage Unstaled/P3",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AFAC3",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Luigi/Next Misfire Damage Unstaled/P4",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE104",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mewtwo/Charge (6 is full)/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE974",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mewtwo/Charge (6 is full)/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mewtwo/Charge (6 is full)/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA54",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mewtwo/Charge (6 is full)/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "8127F230",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mewtwo/Float Time/P1",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "812D1230",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mewtwo/Float Time/P2",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "81323230",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mewtwo/Float Time/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "81375230",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mewtwo/Float Time/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE10F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Next Hammer/P1",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE97F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Next Hammer/P2",
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "901AF1EF",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Next Hammer/P3",
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "901AFA5F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Next Hammer/P4",
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "901AE113",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Hammer/P1",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE983",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Hammer/P2",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1F3",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Hammer/P3",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA63",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Hammer/P4",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE103",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Bacon/P1",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE973",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Bacon/P2",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E3",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Bacon/P3",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA53",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Bacon/P4",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE107",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Bacon *2/P1",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE977",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Bacon *2/P2",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E7",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Bacon *2/P3",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA57",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Mr Game And Watch/Prev Bacon *2/P4",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "81285D80",
+    "baseIndex": 1,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 1/X Pos",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "81285D84",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 1/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81287374",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 1/Age",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "81282A38",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 2/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81282A3C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 2/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8128402C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 2/Age",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "8127F6F0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 3/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8127F6F4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 3/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81280CE4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 3/Age",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "8127C3A8",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 4/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8127C3AC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 4/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8127D99C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P1 Pikmin/Pikmin 4/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "812D7D80",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 1/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812D7D84",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 1/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812D9374",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 1/Age",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "812D4A38",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 2/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812D4A3C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 2/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812D602C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 2/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "812D16F0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 3/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812D16F4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 3/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812D2CE4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 3/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "812CE3A8",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 4/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812CE3AC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 4/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812CF99C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P2 Pikmin/Pikmin 4/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "81329D80",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 1/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81329D84",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 1/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8132B374",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 1/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "81326A38",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 2/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81326A3C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 2/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8132802C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 2/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "813236F0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 3/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "813236F4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 3/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81324CE4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 3/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "813203A8",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 4/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "813203AC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 4/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8132199C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P3 Pikmin/Pikmin 4/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "8137BD80",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 1/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8137BD84",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 1/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8137D374",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 1/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "81378A38",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 2/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81378A3C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 2/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8137A02C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 2/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "813756F0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 3/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "813756F4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 3/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81376CE4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 3/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "813723A8",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 4/X Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "813723AC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 4/Y Pos",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8137399C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/P4 Pikmin/Pikmin 4/Age",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE174",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/Current Colour on Olimar/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE9E4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/Current Colour on Olimar/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF254",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/Current Colour on Olimar/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFAC4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Olimar/Current Colour on Olimar/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "812773B4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Peach/Float Time/P1",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "812C93B4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Peach/Float Time/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "8131B3B4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Peach/Float Time/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "8136D3B4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Peach/Float Time/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "8127743A",
+    "baseIndex": 3,
+    "label": "/Char Specific Charges/Peach/Next Fsmash (Pan = 001, Racket = 010, Club = 100)/P1",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "812C943A",
+    "baseIndex": 3,
+    "label": "/Char Specific Charges/Peach/Next Fsmash (Pan = 001, Racket = 010, Club = 100)/P2",
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "8131B43A",
+    "baseIndex": 3,
+    "label": "/Char Specific Charges/Peach/Next Fsmash (Pan = 001, Racket = 010, Club = 100)/P3",
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "8136D43A",
+    "baseIndex": 3,
+    "label": "/Char Specific Charges/Peach/Next Fsmash (Pan = 001, Racket = 010, Club = 100)/P4",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE1DC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/ROB/Laser Size (Full is 900)/P1",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AEA4C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/ROB/Laser Size (Full is 900)/P2",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AF2BC",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/ROB/Laser Size (Full is 900)/P3",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AFB2C",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/ROB/Laser Size (Full is 900)/P4",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AE12F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/ROB/Boosts/P1",
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "901AE99F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/ROB/Boosts/P2",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AF20F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/ROB/Boosts/P3",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA7F",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/ROB/Boosts/P4",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "901AE104",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Samus/Charge (7 is full)/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE974",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Samus/Charge (7 is full)/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Samus/Charge (7 is full)/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA54",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Samus/Charge (7 is full)/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE100",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Sheik/Needles (6 is full)/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE970",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Sheik/Needles (6 is full)/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Sheik/Needles (6 is full)/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA50",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Sheik/Needles (6 is full)/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE174",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Snake/Shots Fired/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE9E4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Snake/Shots Fired/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF254",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Snake/Shots Fired/P3",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AFAC4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Snake/Shots Fired/P4",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AE100",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Squirtle/Watergun (60 is full)/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE970",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Squirtle/Watergun (60 is full)/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E0",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Squirtle/Watergun (60 is full)/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA50",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Squirtle/Watergun (60 is full)/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE104",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Wario/Waft (3600 is full)/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE974",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Wario/Waft (3600 is full)/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1E4",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Wario/Waft (3600 is full)/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA54",
+    "baseIndex": 0,
+    "label": "/Char Specific Charges/Wario/Waft (3600 is full)/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Knockback Velocity",
+    "pointerOffsets": [ "60", "44", "40", "18" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Hitbox Damage",
+    "pointerOffsets": [ "60", "44", "40", "48" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Hitbox X Offset",
+    "pointerOffsets": [ "60", "44", "40", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Hitbox Y Offset",
+    "pointerOffsets": [ "60", "44", "40", "50" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Hitbox Z Offset",
+    "pointerOffsets": [ "60", "44", "40", "54" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Hitbox Size",
+    "pointerOffsets": [ "60", "44", "40", "58" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Hitbox Trajectory",
+    "pointerOffsets": [ "60", "44", "40", "5C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/KBG",
+    "pointerOffsets": [ "60", "44", "40", "60" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/WDSK",
+    "pointerOffsets": [ "60", "44", "40", "64" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/BKB",
+    "pointerOffsets": [ "60", "44", "40", "68" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Trip Rate",
+    "pointerOffsets": [ "60", "44", "40", "6C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/Hitlag Mult",
+    "pointerOffsets": [ "60", "44", "40", "70" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/SDI Mult",
+    "pointerOffsets": [ "60", "44", "40", "74" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Recieved Hit Data/P1/Hitbox Flags",
+    "pointerOffsets": [ "60", "44", "40", "78" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/P1 Victim SDI mult",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/P1 Victim Damage Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/P1 Victim Element",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/P1 Victim Hitlag Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P1/P1 Victim Hitstun Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Knockback Velocity",
+    "pointerOffsets": [ "60", "44", "40", "18" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Hitbox Damage",
+    "pointerOffsets": [ "60", "44", "40", "48" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Hitbox X Offset",
+    "pointerOffsets": [ "60", "44", "40", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Hitbox Y Offset",
+    "pointerOffsets": [ "60", "44", "40", "50" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Hitbox Z Offset",
+    "pointerOffsets": [ "60", "44", "40", "54" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Hitbox Size",
+    "pointerOffsets": [ "60", "44", "40", "58" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Hitbox Trajectory",
+    "pointerOffsets": [ "60", "44", "40", "5C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 KBG",
+    "pointerOffsets": [ "60", "44", "40", "60" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 WDSK",
+    "pointerOffsets": [ "60", "44", "40", "64" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 BKB",
+    "pointerOffsets": [ "60", "44", "40", "68" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Trip Rate",
+    "pointerOffsets": [ "60", "44", "40", "6C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Hitlag Mult",
+    "pointerOffsets": [ "60", "44", "40", "70" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 SDI Mult",
+    "pointerOffsets": [ "60", "44", "40", "74" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Recieved Hit Data/P2/P1 Hitbox Flags",
+    "pointerOffsets": [ "60", "44", "40", "78" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Victim SDI mult",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Victim Damage Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Victim Element",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Victim Hitlag Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P2/P1 Victim Hitstun Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Knockback Velocity",
+    "pointerOffsets": [ "60", "44", "40", "18" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Hitbox Damage",
+    "pointerOffsets": [ "60", "44", "40", "48" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Hitbox X Offset",
+    "pointerOffsets": [ "60", "44", "40", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Hitbox Y Offset",
+    "pointerOffsets": [ "60", "44", "40", "50" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Hitbox Z Offset",
+    "pointerOffsets": [ "60", "44", "40", "54" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Hitbox Size",
+    "pointerOffsets": [ "60", "44", "40", "58" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Hitbox Trajectory",
+    "pointerOffsets": [ "60", "44", "40", "5C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 KBG",
+    "pointerOffsets": [ "60", "44", "40", "60" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 WDSK",
+    "pointerOffsets": [ "60", "44", "40", "64" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 BKB",
+    "pointerOffsets": [ "60", "44", "40", "68" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Trip Rate",
+    "pointerOffsets": [ "60", "44", "40", "6C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Hitlag Mult",
+    "pointerOffsets": [ "60", "44", "40", "70" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 SDI Mult",
+    "pointerOffsets": [ "60", "44", "40", "74" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Recieved Hit Data/P3/P1 Hitbox Flags",
+    "pointerOffsets": [ "60", "44", "40", "78" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Victim SDI mult",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Victim Damage Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Victim Element",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Victim Hitlag Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P3/P1 Victim Hitstun Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Knockback Velocity",
+    "pointerOffsets": [ "60", "44", "40", "18" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Hitbox Damage",
+    "pointerOffsets": [ "60", "44", "40", "48" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Hitbox X Offset",
+    "pointerOffsets": [ "60", "44", "40", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Hitbox Y Offset",
+    "pointerOffsets": [ "60", "44", "40", "50" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Hitbox Z Offset",
+    "pointerOffsets": [ "60", "44", "40", "54" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Hitbox Size",
+    "pointerOffsets": [ "60", "44", "40", "58" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Hitbox Trajectory",
+    "pointerOffsets": [ "60", "44", "40", "5C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 KBG",
+    "pointerOffsets": [ "60", "44", "40", "60" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 WDSK",
+    "pointerOffsets": [ "60", "44", "40", "64" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 BKB",
+    "pointerOffsets": [ "60", "44", "40", "68" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Trip Rate",
+    "pointerOffsets": [ "60", "44", "40", "6C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Hitlag Mult",
+    "pointerOffsets": [ "60", "44", "40", "70" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 SDI Mult",
+    "pointerOffsets": [ "60", "44", "40", "74" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Recieved Hit Data/P4/P1 Hitbox Flags",
+    "pointerOffsets": [ "60", "44", "40", "78" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Victim SDI mult",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Victim Damage Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Victim Element",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Victim Hitlag Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Recieved Hit Data/P4/P1 Victim Hitstun Taken",
+    "pointerOffsets": [ "60", "48", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P1/LA-Basic[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P1/LA-Float[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "14", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 3,
+    "label": "/Variables (LA/RA)/P1/LA-Bit[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "1C", "0" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P1/RA-Basic[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P1/RA-Float[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "14", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 3,
+    "label": "/Variables (LA/RA)/P1/RA-Bit[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "1C", "0" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P2/LA-Basic[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P2/LA-Float[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "14", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 3,
+    "label": "/Variables (LA/RA)/P2/LA-Bit[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "1C", "0" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P2/RA-Basic[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P2/RA-Float[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "14", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 3,
+    "label": "/Variables (LA/RA)/P2/RA-Bit[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "1C", "0" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P3/LA-Basic[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P3/LA-Float[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "14", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 3,
+    "label": "/Variables (LA/RA)/P3/LA-Bit[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "1C", "0" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P3/RA-Basic[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P3/RA-Float[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "14", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 3,
+    "label": "/Variables (LA/RA)/P3/RA-Bit[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "1C", "0" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P4/LA-Basic[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P4/LA-Float[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "14", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 3,
+    "label": "/Variables (LA/RA)/P4/LA-Bit[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "20", "1C", "0" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P4/RA-Basic[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Variables (LA/RA)/P4/RA-Float[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "14", "0" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 3,
+    "label": "/Variables (LA/RA)/P4/RA-Bit[0] Pointer",
+    "pointerOffsets": [ "60", "D8", "64", "24", "1C", "0" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Current Animation Frame/P1",
+    "pointerOffsets": [ "60", "14", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Current Animation Frame/P2",
+    "pointerOffsets": [ "60", "14", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Current Animation Frame/P3",
+    "pointerOffsets": [ "60", "14", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Current Animation Frame/P4",
+    "pointerOffsets": [ "60", "14", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/P1 Script Thread Table",
+    "pointerOffsets": [ "60", "78", "40" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/P1 Action Script",
+    "pointerOffsets": [ "60", "78", "40", "10", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/P1 Subaction Main",
+    "pointerOffsets": [ "60", "78", "40", "13C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/P1 Subaction GFX",
+    "pointerOffsets": [ "60", "78", "40", "268", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/P1 Subaction SFX",
+    "pointerOffsets": [ "60", "78", "40", "394", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/Current Command/P1 Action Script",
+    "pointerOffsets": [ "60", "78", "40", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/Current Command/P1 Subaction Main",
+    "pointerOffsets": [ "60", "78", "40", "138", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/Current Command/P1 Subaction GFX",
+    "pointerOffsets": [ "60", "78", "40", "264", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P1/Current Command/P1 Subaction SFX",
+    "pointerOffsets": [ "60", "78", "40", "390", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/P1 Script Thread Table",
+    "pointerOffsets": [ "60", "78", "40" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/P1 Action Script",
+    "pointerOffsets": [ "60", "78", "40", "10", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/P1 Subaction Main",
+    "pointerOffsets": [ "60", "78", "40", "13C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/P1 Subaction GFX",
+    "pointerOffsets": [ "60", "78", "40", "268", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/P1 Subaction SFX",
+    "pointerOffsets": [ "60", "78", "40", "394", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/Current Command/P1 Action Script",
+    "pointerOffsets": [ "60", "78", "40", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/Current Command/P1 Subaction Main",
+    "pointerOffsets": [ "60", "78", "40", "138", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/Current Command/P1 Subaction GFX",
+    "pointerOffsets": [ "60", "78", "40", "264", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P2/Script/Current Command/P1 Subaction SFX",
+    "pointerOffsets": [ "60", "78", "40", "390", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/P1 Script Thread Table",
+    "pointerOffsets": [ "60", "78", "40" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/P1 Action Script",
+    "pointerOffsets": [ "60", "78", "40", "10", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/P1 Subaction Main",
+    "pointerOffsets": [ "60", "78", "40", "13C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/P1 Subaction GFX",
+    "pointerOffsets": [ "60", "78", "40", "268", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/P1 Subaction SFX",
+    "pointerOffsets": [ "60", "78", "40", "394", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/Current Command/P1 Action Script",
+    "pointerOffsets": [ "60", "78", "40", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/Current Command/P1 Subaction Main",
+    "pointerOffsets": [ "60", "78", "40", "138", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/Current Command/P1 Subaction GFX",
+    "pointerOffsets": [ "60", "78", "40", "264", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P3/Script/Current Command/P1 Subaction SFX",
+    "pointerOffsets": [ "60", "78", "40", "390", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/P1 Script Thread Table",
+    "pointerOffsets": [ "60", "78", "40" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/P1 Action Script",
+    "pointerOffsets": [ "60", "78", "40", "10", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/P1 Subaction Main",
+    "pointerOffsets": [ "60", "78", "40", "13C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/P1 Subaction GFX",
+    "pointerOffsets": [ "60", "78", "40", "268", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/P1 Subaction SFX",
+    "pointerOffsets": [ "60", "78", "40", "394", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/Current Command/P1 Action Script",
+    "pointerOffsets": [ "60", "78", "40", "C", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/Current Command/P1 Subaction Main",
+    "pointerOffsets": [ "60", "78", "40", "138", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/Current Command/P1 Subaction GFX",
+    "pointerOffsets": [ "60", "78", "40", "264", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Current PSA Script/P4/Current Command/P1 Subaction SFX",
+    "pointerOffsets": [ "60", "78", "40", "390", "0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Animation Speed (current FSM)/P1",
+    "pointerOffsets": [ "60", "14", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Animation Speed (current FSM)/P2",
+    "pointerOffsets": [ "60", "14", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Animation Speed (current FSM)/P3",
+    "pointerOffsets": [ "60", "14", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Animation Speed (current FSM)/P4",
+    "pointerOffsets": [ "60", "14", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Frames of Hitlag Remaining/P1",
+    "pointerOffsets": [ "60", "D8", "44", "10" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Frames of Hitlag Remaining/P2",
+    "pointerOffsets": [ "60", "D8", "44", "10" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Frames of Hitlag Remaining/P3",
+    "pointerOffsets": [ "60", "D8", "44", "10" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Frames of Hitlag Remaining/P4",
+    "pointerOffsets": [ "60", "D8", "44", "10" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Minimum frames of Hitlag (used by counters)/P1",
+    "pointerOffsets": [ "60", "D8", "44", "14" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Minimum frames of Hitlag (used by counters)/P2",
+    "pointerOffsets": [ "60", "D8", "44", "14" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Minimum frames of Hitlag (used by counters)/P3",
+    "pointerOffsets": [ "60", "D8", "44", "14" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Minimum frames of Hitlag (used by counters)/P4",
+    "pointerOffsets": [ "60", "D8", "44", "14" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Staleness reduction of current Move/P1",
+    "pointerOffsets": [ "60", "D0", "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Staleness reduction of current Move/P2",
+    "pointerOffsets": [ "60", "D0", "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Staleness reduction of current Move/P3",
+    "pointerOffsets": [ "60", "D0", "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Staleness reduction of current Move/P4",
+    "pointerOffsets": [ "60", "D0", "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/In Hitlag/P1",
+    "pointerOffsets": [ "60", "D8", "44", "1C" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/In Hitlag/P2",
+    "pointerOffsets": [ "60", "D8", "44", "1C" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/In Hitlag/P3",
+    "pointerOffsets": [ "60", "D8", "44", "1C" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/In Hitlag/P4",
+    "pointerOffsets": [ "60", "D8", "44", "1C" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Hitbox Has Connected/P1",
+    "pointerOffsets": [ "60", "7C", "7F" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Hitbox Has Connected/P2",
+    "pointerOffsets": [ "60", "7C", "7F" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Hitbox Has Connected/P3",
+    "pointerOffsets": [ "60", "7C", "7F" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Hitbox Has Connected/P4",
+    "pointerOffsets": [ "60", "7C", "7F" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Hitbox Pointer ID 0/P1",
+    "pointerOffsets": [ "60", "24", "50" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Hitbox Pointer ID 0/P2",
+    "pointerOffsets": [ "60", "24", "50" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Hitbox Pointer ID 0/P3",
+    "pointerOffsets": [ "60", "24", "50" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Hitbox Pointer ID 0/P4",
+    "pointerOffsets": [ "60", "24", "50" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Previous Action (IC-Basic[20003])/P1",
+    "pointerOffsets": [ "60", "7C", "6" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Previous Action (IC-Basic[20003])/P2",
+    "pointerOffsets": [ "60", "7C", "6" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Previous Action (IC-Basic[20003])/P3",
+    "pointerOffsets": [ "60", "7C", "6" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Previous Action (IC-Basic[20003])/P4",
+    "pointerOffsets": [ "60", "7C", "6" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Subaction (IC-Basic[20001])/P1",
+    "pointerOffsets": [ "60", "14", "5A" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Subaction (IC-Basic[20001])/P2",
+    "pointerOffsets": [ "60", "14", "5A" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Subaction (IC-Basic[20001])/P3",
+    "pointerOffsets": [ "60", "14", "5A" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Subaction (IC-Basic[20001])/P4",
+    "pointerOffsets": [ "60", "14", "5A" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Current Attack/Action (IC-Basic[20000])/P1",
+    "pointerOffsets": [ "60", "7C", "3A" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Current Attack/Action (IC-Basic[20000])/P2",
+    "pointerOffsets": [ "60", "7C", "3A" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Current Attack/Action (IC-Basic[20000])/P3",
+    "pointerOffsets": [ "60", "7C", "3A" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Current Attack/Action (IC-Basic[20000])/P4",
+    "pointerOffsets": [ "60", "7C", "3A" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Armour/Type/P1",
+    "pointerOffsets": [ "60", "44", "48" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Armour/Type/P2",
+    "pointerOffsets": [ "60", "44", "48" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Armour/Type/P3",
+    "pointerOffsets": [ "60", "44", "48" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Armour/Type/P4",
+    "pointerOffsets": [ "60", "44", "48" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Attack/Armour/Knockback Threshold/P1",
+    "pointerOffsets": [ "60", "44", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Attack/Armour/Knockback Threshold/P2",
+    "pointerOffsets": [ "60", "44", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Attack/Armour/Knockback Threshold/P3",
+    "pointerOffsets": [ "60", "44", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Attack/Armour/Knockback Threshold/P4",
+    "pointerOffsets": [ "60", "44", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Mashout Data/Grabbers Main Index/P1",
+    "pointerOffsets": [ "60", "64", "0", "38", "44" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Mashout Data/Grabbers Main Index/P2",
+    "pointerOffsets": [ "60", "64", "0", "38", "44" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Mashout Data/Grabbers Main Index/P3",
+    "pointerOffsets": [ "60", "64", "0", "38", "44" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Mashout Data/Grabbers Main Index/P4",
+    "pointerOffsets": [ "60", "64", "0", "38", "44" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Frames till Grab release/P1",
+    "pointerOffsets": [ "60", "68", "10", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Frames till Grab release/P2",
+    "pointerOffsets": [ "60", "68", "10", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Frames till Grab release/P3",
+    "pointerOffsets": [ "60", "68", "10", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Frames till Grab release/P4",
+    "pointerOffsets": [ "60", "68", "10", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Reduction Per Mash Input/P1",
+    "pointerOffsets": [ "60", "68", "10", "14" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Reduction Per Mash Input/P2",
+    "pointerOffsets": [ "60", "68", "10", "14" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Reduction Per Mash Input/P3",
+    "pointerOffsets": [ "60", "68", "10", "14" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Reduction Per Mash Input/P4",
+    "pointerOffsets": [ "60", "68", "10", "14" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Reduction Per Frame/P1",
+    "pointerOffsets": [ "60", "68", "10", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Reduction Per Frame/P2",
+    "pointerOffsets": [ "60", "68", "10", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Reduction Per Frame/P3",
+    "pointerOffsets": [ "60", "68", "10", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Reduction Per Frame/P4",
+    "pointerOffsets": [ "60", "68", "10", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Mashing/P1/Left/Right",
+    "pointerOffsets": [ "60", "68", "10", "18" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Mashing/P1/Up/Down",
+    "pointerOffsets": [ "60", "68", "10", "19" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Mashing/P2/Left/Right",
+    "pointerOffsets": [ "60", "68", "10", "18" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Mashing/P2/Up/Down",
+    "pointerOffsets": [ "60", "68", "10", "19" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Mashing/P3/Left/Right",
+    "pointerOffsets": [ "60", "68", "10", "18" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Mashing/P3/Up/Down",
+    "pointerOffsets": [ "60", "68", "10", "19" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Mashing/P4/Left/Right",
+    "pointerOffsets": [ "60", "68", "10", "18" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Mashout Data/Mashing/P4/Up/Down",
+    "pointerOffsets": [ "60", "68", "10", "19" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Terrain Below/P1",
+    "pointerOffsets": [ "60", "18", "B8" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Terrain Below/P2",
+    "pointerOffsets": [ "60", "18", "B8" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Terrain Below/P3",
+    "pointerOffsets": [ "60", "18", "B8" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Terrain Below/P4",
+    "pointerOffsets": [ "60", "18", "B8" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Weight/P1",
+    "pointerOffsets": [ "60", "D0", "B8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Weight/P2",
+    "pointerOffsets": [ "60", "D0", "B8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Weight/P3",
+    "pointerOffsets": [ "60", "D0", "B8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Weight/P4",
+    "pointerOffsets": [ "60", "D0", "B8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Shield Size/P1",
+    "pointerOffsets": [ "60", "D0", "CC" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Shield Size/P2",
+    "pointerOffsets": [ "60", "D0", "CC" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Shield Size/P3",
+    "pointerOffsets": [ "60", "D0", "CC" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Shield Size/P4",
+    "pointerOffsets": [ "60", "D0", "CC" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P1/P1 Model Scale",
+    "pointerOffsets": [ "60", "10", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P1/P1 X Rot (not right)",
+    "pointerOffsets": [ "60", "10", "46C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P1/P1 Y Rot",
+    "pointerOffsets": [ "60", "10", "470" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P1/P1 Z Rot",
+    "pointerOffsets": [ "60", "10", "474" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P2/P1 Model Scale",
+    "pointerOffsets": [ "60", "10", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P2/P1 X Rot (not right)",
+    "pointerOffsets": [ "60", "10", "46C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P2/P1 Y Rot",
+    "pointerOffsets": [ "60", "10", "470" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P2/P1 Z Rot",
+    "pointerOffsets": [ "60", "10", "474" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P3/P1 Model Scale",
+    "pointerOffsets": [ "60", "10", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P3/P1 X Rot (not right)",
+    "pointerOffsets": [ "60", "10", "46C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P3/P1 Y Rot",
+    "pointerOffsets": [ "60", "10", "470" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P3/P1 Z Rot",
+    "pointerOffsets": [ "60", "10", "474" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P4/P1 Model Scale",
+    "pointerOffsets": [ "60", "10", "4C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P4/P1 X Rot (not right)",
+    "pointerOffsets": [ "60", "10", "46C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P4/P1 Y Rot",
+    "pointerOffsets": [ "60", "10", "470" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Model Scale/Rotation (incorrect for some chars)/P4/P1 Z Rot",
+    "pointerOffsets": [ "60", "10", "474" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P1/R",
+    "pointerOffsets": [ "60", "B8", "14A" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P1/G",
+    "pointerOffsets": [ "60", "B8", "14B" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P1/B",
+    "pointerOffsets": [ "60", "B8", "14C" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P1/A",
+    "pointerOffsets": [ "60", "B8", "14D" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P1/Enabled",
+    "pointerOffsets": [ "60", "B8", "14F" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P2/P1 R",
+    "pointerOffsets": [ "60", "B8", "14A" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P2/P1 G",
+    "pointerOffsets": [ "60", "B8", "14B" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P2/P1 B",
+    "pointerOffsets": [ "60", "B8", "14C" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P2/P1 A",
+    "pointerOffsets": [ "60", "B8", "14D" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P2/P1 Enabled",
+    "pointerOffsets": [ "60", "B8", "14F" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P3/R",
+    "pointerOffsets": [ "60", "B8", "14A" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P3/G",
+    "pointerOffsets": [ "60", "B8", "14B" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P3/B",
+    "pointerOffsets": [ "60", "B8", "14C" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P3/A",
+    "pointerOffsets": [ "60", "B8", "14D" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P3/Enabled",
+    "pointerOffsets": [ "60", "B8", "14F" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P4/R",
+    "pointerOffsets": [ "60", "B8", "14A" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P4/G",
+    "pointerOffsets": [ "60", "B8", "14B" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P4/B",
+    "pointerOffsets": [ "60", "B8", "14C" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P4/A",
+    "pointerOffsets": [ "60", "B8", "14D" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 1,
+    "label": "/SubColour Overlay/P4/Enabled",
+    "pointerOffsets": [ "60", "B8", "14F" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Current Facing Direction/P1",
+    "pointerOffsets": [ "60", "18", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Current Facing Direction/P2",
+    "pointerOffsets": [ "60", "18", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Current Facing Direction/P3",
+    "pointerOffsets": [ "60", "18", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Current Facing Direction/P4",
+    "pointerOffsets": [ "60", "18", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Damage Taken Multiplier/P1",
+    "pointerOffsets": [ "60", "44", "94" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Damage Taken Multiplier/P2",
+    "pointerOffsets": [ "60", "44", "94" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Damage Taken Multiplier/P3",
+    "pointerOffsets": [ "60", "44", "94" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Damage Taken Multiplier/P4",
+    "pointerOffsets": [ "60", "44", "94" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/P1 Position X",
+    "pointerOffsets": [ "34", "60", "D8", "C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/P1 Position Y",
+    "pointerOffsets": [ "34", "60", "D8", "C", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/P2 Position X",
+    "pointerOffsets": [ "278", "60", "D8", "C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/P2 Position Y",
+    "pointerOffsets": [ "278", "60", "D8", "C", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/P3 Position X",
+    "pointerOffsets": [ "4BC", "60", "D8", "C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/P3 Position Y",
+    "pointerOffsets": [ "4BC", "60", "D8", "C", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/P4 Position X",
+    "pointerOffsets": [ "700", "60", "D8", "C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/P4 Position Y",
+    "pointerOffsets": [ "700", "60", "D8", "C", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/Nana/P1 Position X",
+    "pointerOffsets": [ "3C", "60", "D8", "C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/Nana/P1 Position Y",
+    "pointerOffsets": [ "3C", "60", "D8", "C", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/Nana/P2 Position X",
+    "pointerOffsets": [ "280", "60", "D8", "C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/Nana/P2 Position Y",
+    "pointerOffsets": [ "280", "60", "D8", "C", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/Nana/P3 Position X",
+    "pointerOffsets": [ "4C4", "60", "D8", "C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/Nana/P3 Position Y",
+    "pointerOffsets": [ "4C4", "60", "D8", "C", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/Nana/P4 Position X",
+    "pointerOffsets": [ "708", "60", "D8", "C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/Position/Nana/P4 Position Y",
+    "pointerOffsets": [ "708", "60", "D8", "C", "10" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Motion X",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "FC" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Motion Y",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "100" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Control X",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "18C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Control X",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "190" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Gravity Y",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "15C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Damage X",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "7C", "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Damage Y",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "7C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Wind X",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "7C", "50" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Wind Y",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "7C", "54" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812DAF40",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Jostle X (never found a good pointer path for this, so is wrong often)",
+    "pointerOffsets": [ "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Stop X (seen as a Y speed sometimes)",
+    "pointerOffsets": [ "34", "60", "D8", "7C", "1E4" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80494F30",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Total X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80494F30",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P1/Total Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Motion X",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "FC" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Motion Y",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "100" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Control X",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "18C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Gravity Y",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "15C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Damage X",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "7C", "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Damage Y",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "7C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Wind X",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "7C", "50" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Wind Y",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "7C", "54" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81288F28",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Jostle X (never found a good pointer path for this, so is wrong often)",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Stop X",
+    "pointerOffsets": [ "278", "60", "D8", "7C", "1E4" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8049DEE4",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Total X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8049DEE4",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P2/Total Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Motion X",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "FC" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Motion Y",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "100" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Control X",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "18C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Gravity Y",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "15C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Damage X",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "7C", "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Damage Y",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "7C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Wind X",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "7C", "50" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Wind Y",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "7C", "54" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81288F28",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Jostle X (never found a good pointer path for this, so is wrong often)",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Stop X",
+    "pointerOffsets": [ "4BC", "60", "D8", "7C", "1E4" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80494F98",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Total X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80494F98",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P3/Total Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Motion X",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "FC" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Motion Y",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "100" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Control X",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "18C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Gravity Y",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "15C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Damage X",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "7C", "8" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Damage Y",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "7C", "C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Wind X",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "7C", "50" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Wind Y",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "7C", "54" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81288F28",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Jostle X (never found a good pointer path for this, so is wrong often)",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Stop X",
+    "pointerOffsets": [ "700", "60", "D8", "7C", "1E4" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80495000",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Total X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80495000",
+    "baseIndex": 0,
+    "label": "/Positional Data/All Velocitys/P4/Total Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80494F30",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/P1 Total Velocity X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80494F30",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/P1 Total Velocity Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8049DEE4",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/P2 Total Velocity X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "8049DEE4",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/P2 Total Velocity Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80494F98",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/P3 Total Velocity X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80494F98",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/P3 Total Velocity Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80495000",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/P4 Total Velocity X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "80495000",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/P4 Total Velocity Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81269360",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/Nana/P1 Total Velocity X",
+    "pointerOffsets": [ "60" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "81269360",
+    "baseIndex": 0,
+    "label": "/Positional Data/Total Velocity (used by camera, not always accurate/Nana/P1 Total Velocity Y",
+    "pointerOffsets": [ "64" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE0E0",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Hitstun Frames Left/P1",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AE950",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Hitstun Frames Left/P2",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AF1C0",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Hitstun Frames Left/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA30",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Hitstun Frames Left/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE3B0",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Hitstun Frames Left/Nana/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AEC20",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Hitstun Frames Left/Nana/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF490",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Hitstun Frames Left/Nana/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFD00",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Hitstun Frames Left/Nana/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE0E4",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Until Can Meteor Cancel/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE954",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Until Can Meteor Cancel/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF1C4",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Until Can Meteor Cancel/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA34",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Until Can Meteor Cancel/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE3B4",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Until Can Meteor Cancel/Nana/P1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AEC24",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Until Can Meteor Cancel/Nana/P2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF494",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Until Can Meteor Cancel/Nana/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFD04",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Until Can Meteor Cancel/Nana/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last Jump (must be >=40)/P1",
+    "pointerOffsets": [ "34", "60", "D8", "5C", "10", "C1" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last Jump (must be >=40)/P2",
+    "pointerOffsets": [ "278", "60", "D8", "5C", "10", "C1" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last Jump (must be >=40)/P3",
+    "pointerOffsets": [ "4BC", "60", "D8", "5C", "10", "C1" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last Jump (must be >=40)/P4",
+    "pointerOffsets": [ "700", "60", "D8", "5C", "10", "C1" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last Jump (must be >=40)/Nana/P1",
+    "pointerOffsets": [ "3C", "60", "D8", "5C", "10", "C1" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last Jump (must be >=40)/Nana/P2",
+    "pointerOffsets": [ "280", "60", "D8", "5C", "10", "C1" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last Jump (must be >=40)/Nana/P3",
+    "pointerOffsets": [ "4C4", "60", "D8", "5C", "10", "C1" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last Jump (must be >=40)/Nana/P4",
+    "pointerOffsets": [ "708", "60", "D8", "5C", "10", "C1" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last UpB (must be >=40)/P1",
+    "pointerOffsets": [ "34", "60", "D8", "5C", "10", "EF" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last UpB (must be >=40)/P2",
+    "pointerOffsets": [ "278", "60", "D8", "5C", "10", "EF" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last UpB (must be >=40)/P3",
+    "pointerOffsets": [ "4BC", "60", "D8", "5C", "10", "EF" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last UpB (must be >=40)/P4",
+    "pointerOffsets": [ "700", "60", "D8", "5C", "10", "EF" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last UpB (must be >=40)/Nana/P1",
+    "pointerOffsets": [ "3C", "60", "D8", "5C", "10", "EF" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last UpB (must be >=40)/Nana/P2",
+    "pointerOffsets": [ "280", "60", "D8", "5C", "10", "EF" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last UpB (must be >=40)/Nana/P3",
+    "pointerOffsets": [ "4C4", "60", "D8", "5C", "10", "EF" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Meteor Cancel/Frames Since Last UpB (must be >=40)/Nana/P4",
+    "pointerOffsets": [ "708", "60", "D8", "5C", "10", "EF" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "901AE008",
+    "baseIndex": 1,
+    "label": "/Misc Timers/Ledgegrab Lockout/P1",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AE878",
+    "baseIndex": 1,
+    "label": "/Misc Timers/Ledgegrab Lockout/P2",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AF0E8",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Ledgegrab Lockout/p3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AF958",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Ledgegrab Lockout/P4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817BF84C",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Ledge Intang Remaining/P1",
+    "pointerOffsets": [ "116C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817BC42C",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Ledge Intang Remaining/P2",
+    "pointerOffsets": [ "116C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817B900C",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Ledge Intang Remaining/P3",
+    "pointerOffsets": [ "116C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817B5BEC",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Ledge Intang Remaining/P4",
+    "pointerOffsets": [ "116C" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817BF84C",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Respawn Intang Remaining/P1",
+    "pointerOffsets": [ "1170" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817BC42C",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Respawn Intang Remaining/P2",
+    "pointerOffsets": [ "1170" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817B900C",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Respawn Intang Remaining/P3",
+    "pointerOffsets": [ "1170" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817B5BEC",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Respawn Intang Remaining/P4",
+    "pointerOffsets": [ "1170" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Since Last HardPress (must be <=20 on landing to tech)/P1",
+    "pointerOffsets": [ "34", "60", "D8", "5C", "10", "C3" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Since Last HardPress (must be <=20 on landing to tech)/P2",
+    "pointerOffsets": [ "278", "60", "D8", "5C", "10", "C3" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Since Last HardPress (must be <=20 on landing to tech)/P3",
+    "pointerOffsets": [ "4BC", "60", "D8", "5C", "10", "C3" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Since Last HardPress (must be <=20 on landing to tech)/P4",
+    "pointerOffsets": [ "700", "60", "D8", "5C", "10", "C3" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Since Last HardPress (must be <=20 on landing to tech)/Nana/P1",
+    "pointerOffsets": [ "3C", "60", "D8", "5C", "10", "C3" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Since Last HardPress (must be <=20 on landing to tech)/Nana/P2",
+    "pointerOffsets": [ "280", "60", "D8", "5C", "10", "C3" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Since Last HardPress (must be <=20 on landing to tech)/Nana/P3",
+    "pointerOffsets": [ "4C4", "60", "D8", "5C", "10", "C3" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Since Last HardPress (must be <=20 on landing to tech)/Nana/P4",
+    "pointerOffsets": [ "708", "60", "D8", "5C", "10", "C3" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Between Last 2 Hardpresses (must be >=40 on landing to tech)/P1",
+    "pointerOffsets": [ "34", "60", "D8", "5C", "10", "C2" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Between Last 2 Hardpresses (must be >=40 on landing to tech)/P2",
+    "pointerOffsets": [ "278", "60", "D8", "5C", "10", "C2" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Between Last 2 Hardpresses (must be >=40 on landing to tech)/P3",
+    "pointerOffsets": [ "4BC", "60", "D8", "5C", "10", "C2" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Between Last 2 Hardpresses (must be >=40 on landing to tech)/P4",
+    "pointerOffsets": [ "700", "60", "D8", "5C", "10", "C2" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Between Last 2 Hardpresses (must be >=40 on landing to tech)/Nana/P1",
+    "pointerOffsets": [ "3C", "60", "D8", "5C", "10", "C2" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Between Last 2 Hardpresses (must be >=40 on landing to tech)/Nana/P2",
+    "pointerOffsets": [ "280", "60", "D8", "5C", "10", "C2" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Between Last 2 Hardpresses (must be >=40 on landing to tech)/Nana/P3",
+    "pointerOffsets": [ "4C4", "60", "D8", "5C", "10", "C2" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Tech/Frames Between Last 2 Hardpresses (must be >=40 on landing to tech)/Nana/P4",
+    "pointerOffsets": [ "708", "60", "D8", "5C", "10", "C2" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80494F30",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Air Time/P1",
+    "pointerOffsets": [ "BF" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80494F98",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Air Time/P2",
+    "pointerOffsets": [ "BF" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80495000",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Air Time/P3",
+    "pointerOffsets": [ "BF" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80495068",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Air Time/P4",
+    "pointerOffsets": [ "BF" ],
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Footstool/Frames Since Last Taunt (must be >=20 to succeed)/P1",
+    "pointerOffsets": [ "34", "60", "D8", "5C", "10", "EE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Footstool/Frames Since Last Taunt (must be >=20 to succeed)/P2",
+    "pointerOffsets": [ "278", "60", "D8", "5C", "10", "EE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Footstool/Frames Since Last Taunt (must be >=20 to succeed)/P3",
+    "pointerOffsets": [ "4BC", "60", "D8", "5C", "10", "EE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Footstool/Frames Since Last Taunt (must be >=20 to succeed)/P4",
+    "pointerOffsets": [ "700", "60", "D8", "5C", "10", "EE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Footstool/Frames Since Last Taunt (must be >=20 to succeed)/Nana/P1",
+    "pointerOffsets": [ "3C", "60", "D8", "5C", "10", "EE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Footstool/Frames Since Last Taunt (must be >=20 to succeed)/Nana/P2",
+    "pointerOffsets": [ "280", "60", "D8", "5C", "10", "EE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Footstool/Frames Since Last Taunt (must be >=20 to succeed)/Nana/P3",
+    "pointerOffsets": [ "4C4", "60", "D8", "5C", "10", "EE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80624780",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Footstool/Frames Since Last Taunt (must be >=20 to succeed)/Nana/P4",
+    "pointerOffsets": [ "708", "60", "D8", "5C", "10", "EE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "80623324",
+    "baseIndex": 0,
+    "label": "/Misc Timers/L-cancel Timer/P1",
+    "pointerOffsets": [ "60", "D8", "64", "20", "C", "168" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80623568",
+    "baseIndex": 0,
+    "label": "/Misc Timers/L-cancel Timer/P2",
+    "pointerOffsets": [ "60", "D8", "64", "20", "C", "168" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806237AC",
+    "baseIndex": 0,
+    "label": "/Misc Timers/L-cancel Timer/P3",
+    "pointerOffsets": [ "60", "D8", "64", "20", "C", "168" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "806239F0",
+    "baseIndex": 0,
+    "label": "/Misc Timers/L-cancel Timer/P4",
+    "pointerOffsets": [ "60", "D8", "64", "20", "C", "168" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AE138",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Time Since Last Hit/P1",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AE9A8",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Time Since Last Hit/P2",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "901AF218",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Time Since Last Hit/P3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "901AFA88",
+    "baseIndex": 0,
+    "label": "/Misc Timers/Time Since Last Hit/p4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "9017F362",
+    "baseIndex": 0,
+    "label": "/Rules/Mode (0 = Time, 1 = Stock, 2 = Coins)",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "9017F363",
+    "baseIndex": 0,
+    "label": "/Rules/Time",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "815E7BBF",
+    "baseIndex": 0,
+    "label": "/Rules/Stocks (read at start of game to set stocks)",
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "9017F364",
+    "baseIndex": 0,
+    "label": "/Rules/Stocks (read at end of game to set other setting)",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "9017F365",
+    "baseIndex": 0,
+    "label": "/Rules/Stock Control (1 = crew)",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "9017F366",
+    "baseIndex": 0,
+    "label": "/Rules/Damage Ratio",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "9017F367",
+    "baseIndex": 0,
+    "label": "/Rules/Stage Choice",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "9017F368",
+    "baseIndex": 0,
+    "label": "/Rules/Stock Time",
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "9017F369",
+    "baseIndex": 0,
+    "label": "/Rules/Team Attack",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "9017F36A",
+    "baseIndex": 0,
+    "label": "/Rules/Pause Type",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "9017F36B",
+    "baseIndex": 0,
+    "label": "/Rules/Auto L-cancel",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "9017F36C",
+    "baseIndex": 0,
+    "label": "/Rules/Input Assist",
+    "typeIndex": 0,
+    "unsigned": false
+  },
+  {
+    "address": "80583FFE",
+    "baseIndex": 0,
+    "label": "/Debug Mode (Vanilla)/Debug Mode",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80583FFC",
+    "baseIndex": 0,
+    "label": "/Debug Mode (Vanilla)/Hitbox Display",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80583FF6",
+    "baseIndex": 0,
+    "label": "/Debug Mode (Vanilla)/Collision Display",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80583FF8",
+    "baseIndex": 0,
+    "label": "/Debug Mode (Vanilla)/Ledgegrab Display",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80583FFA",
+    "baseIndex": 0,
+    "label": "/Debug Mode (Vanilla)/Camera Lock",
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "804E04BC",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Code Menu Activation",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E07C0",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Debug Mode Settings/Debug Mode",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E07F8",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Debug Mode Settings/Hitbox Display",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0844",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Debug Mode Settings/Collision Display",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0884",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Debug Mode Settings/Ledgegrab Display",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E08C4",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Debug Mode Settings/Camera Lock",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0538",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/DI Draw",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0908",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P1/Infinite Sheild",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0944",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P1/Character",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0B84",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P1/Select Percent",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "804E0BBC",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P1/Press DPad for %",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0C08",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P1/Disable Dpad",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0C50",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P2/Infinite Sheild",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0C8C",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P2/Character",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0ECC",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P2/Select Percent",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "804E0F04",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P2/Press DPad for %",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0F50",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P2/Disable Dpad",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0F98",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P3/Infinite Sheild",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0FD4",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P3/Character",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E1214",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P3/Select Percent",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "804E124C",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P3/Press DPad for %",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E1298",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P3/Disable Dpad",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E12DC",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P4/Infinite Sheild",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E1318",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P4/Character",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E1558",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P4/Select Percent",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "804E1590",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P4/Press DPad for %",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E15DC",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/P4/Disable Dpad",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E05FC",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Endless Friendlies",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0654",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Autoskip Results Screen",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0698",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Autosave Replays",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E06D8",
+    "baseIndex": 0,
+    "label": "/Code Menu (LTE 2.11)/Save Prev Replay (requires closing menu)",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "90FF5354",
+    "baseIndex": 0,
+    "label": "/Misc/Time ",
+    "pointerOffsets": [ "E0" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "8062B3B4",
+    "baseIndex": 0,
+    "label": "/Misc/Current Stage ID",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "804C1C40",
+    "baseIndex": 0,
+    "label": "/Misc/Stage Rel or something?/Stage",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "90E612E4",
+    "baseIndex": 0,
+    "label": "/Misc/Stage Rel or something?/Stage",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "8062B420",
+    "baseIndex": 0,
+    "label": "/Misc/Frames Into Current Game",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "805B5014",
+    "baseIndex": 0,
+    "label": "/Misc/Frames Into Runtime",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "90E60F34",
+    "baseIndex": 0,
+    "label": "/Misc/Music On-Off (1 - 0)",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "90345718",
+    "baseIndex": 0,
+    "label": "/Misc/Music Volume",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "90E60F38",
+    "baseIndex": 0,
+    "label": "/Misc/Sound Effects On-Off (1 - 0)",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "90349818",
+    "baseIndex": 0,
+    "label": "/Misc/Sound Volume",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "80001808",
+    "baseIndex": 1,
+    "label": "/Gecko/gr0",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80001808",
+    "baseIndex": 0,
+    "label": "/Gecko/gr0",
+    "pointerOffsets": [ "0" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "8000180C",
+    "baseIndex": 1,
+    "label": "/Gecko/gr1",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "8000180C",
+    "baseIndex": 0,
+    "label": "/Gecko/gr1",
+    "pointerOffsets": [ "0" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80001810",
+    "baseIndex": 1,
+    "label": "/Gecko/gr2",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80001810",
+    "baseIndex": 0,
+    "label": "/Gecko/gr2",
+    "pointerOffsets": [ "0" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80001814",
+    "baseIndex": 1,
+    "label": "/Gecko/gr3",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80001814",
+    "baseIndex": 0,
+    "label": "/Gecko/gr3",
+    "pointerOffsets": [ "0" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "80001818",
+    "baseIndex": 1,
+    "label": "/Gecko/gr4",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "80001818",
+    "baseIndex": 0,
+    "label": "/Gecko/gr4",
+    "pointerOffsets": [ "0" ],
+    "typeIndex": 1,
+    "unsigned": false
+  },
+  {
+    "address": "817CE800",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 X",
+    "pointerOffsets": [ "68", "38" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "817CE800",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 Y",
+    "pointerOffsets": [ "68", "3C" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "817CE800",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 Prev X",
+    "pointerOffsets": [ "68", "40" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "817CE800",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 Prev Y",
+    "pointerOffsets": [ "68", "44" ],
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE230",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 Trigger Analogue L",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE224",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 Trigger Analogue R",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "901AE228",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 X Cstick",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "901AE22C",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 Y Cstick",
+    "typeIndex": 3,
+    "unsigned": true
+  },
+  {
+    "address": "817CE800",
+    "baseIndex": 3,
+    "label": "/Controller Positions/P1 Buttons",
+    "pointerOffsets": [ "68", "74" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817CE800",
+    "baseIndex": 3,
+    "label": "/Controller Positions/P1 Prev Buttons",
+    "pointerOffsets": [ "68", "78" ],
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "817CE800",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 Frames of X",
+    "pointerOffsets": [ "68", "AE" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "817CE800",
+    "baseIndex": 0,
+    "label": "/Controller Positions/P1 Frames of Y",
+    "pointerOffsets": [ "68", "B0" ],
+    "typeIndex": 0,
+    "unsigned": true
+  },
+  {
+    "address": "812647F4",
+    "baseIndex": 0,
+    "label": "/No label",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "812647F0",
+    "baseIndex": 0,
+    "label": "/No label",
+    "typeIndex": 3,
+    "unsigned": false
+  },
+  {
+    "address": "804E0AE4",
+    "baseIndex": 0,
+    "label": "/No label",
+    "typeIndex": 2,
+    "unsigned": true
+  },
+  {
+    "address": "804E0AA4",
+    "baseIndex": 0,
+    "label": "/No label",
+    "typeIndex": 2,
+    "unsigned": false
+  },
+  {
+    "address": "804E0A58",
+    "baseIndex": 0,
+    "label": "/No label",
+    "typeIndex": 2,
+    "unsigned": false
+  }
+]
