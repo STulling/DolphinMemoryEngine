@@ -38,26 +38,41 @@ namespace DolphinMemoryEngine.MemoryWatch
             labels[label] = entry;
         }
 
+        [System.Serializable]
+        public class ListObj
+        {
+            public Entry[] data;
+        }
+
+        [System.Serializable]
+        public class Entry
+        {
+            public string label;
+            public string[] pointerOffsets;
+            public int typeIndex;
+            public string address;
+            public bool unsigned;
+        }
+
         public void LoadString(string jsonString)
         {
-            List<Dictionary<string, object>> data = JArray.Parse(jsonString).ToObject<List<Dictionary<string, object>>>();
-            foreach (Dictionary<string, object> item in data)
+            ListObj listobj = JObject.Parse(jsonString).ToObject<ListObj>();
+            foreach (Entry item in listobj.data)
             {
                 MemEntry entry = null;
                 List<int> pointerOffsets = null;
-                if (item.ContainsKey("pointerOffsets"))
+                if (item.pointerOffsets != null)
                 {
-                    List<string> offsets = ((JArray)item["pointerOffsets"]).ToObject<List<string>>();
                     pointerOffsets = new List<int>();
-                    foreach (string val in offsets)
+                    foreach (string val in item.pointerOffsets)
                     {
                         pointerOffsets.Add(int.Parse(val, System.Globalization.NumberStyles.HexNumber));
                     }
                 }
-                int typeIndex = Convert.ToInt32(item["typeIndex"]);
-                string label = (string)item["label"];
-                uint address = uint.Parse((string)item["address"], System.Globalization.NumberStyles.HexNumber);
-                bool unsigned = (bool)item["unsigned"];
+                int typeIndex = item.typeIndex;
+                string label = item.label;
+                uint address = uint.Parse(item.address, System.Globalization.NumberStyles.HexNumber);
+                bool unsigned = item.unsigned;
                 if (typeIndex == (int)MemType.type_byte)
                     entry = new MemEntry<byte>(label, address, unsigned, pointerOffsets != null, pointerOffsets);
                 if (typeIndex == (int)MemType.type_halfword)
@@ -69,7 +84,7 @@ namespace DolphinMemoryEngine.MemoryWatch
                 if (typeIndex == (int)MemType.type_double)
                     entry = new MemEntry<double>(label, address, unsigned, pointerOffsets != null, pointerOffsets);
 
-                labels[label] = entry;
+                addEntry(label, entry);
             }
         }
 
